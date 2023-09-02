@@ -1,0 +1,27 @@
+#pragma once
+#include <tchar.h>
+#include <Windows.h>
+#include <functional>
+#include <unordered_set>
+#include <string_view>
+#include <mutex>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <numeric>
+#include <future>
+#include <string>
+#include <queue>
+#include <chrono>
+#include <thread>
+#include <format>
+#include <d3d9.h>
+#include <D3dx9tex.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/videoio.hpp>
+#include <opencv2/core/directx.hpp>
+#include <filesystem>
+#include "imgui-1.88/imgui.h"
+#include "imgui-1.88/backends/imgui_impl_dx9.h"
+#include "imgui-1.88/backends/imgui_impl_win32.h"
+using namespace std::chrono_literals;
